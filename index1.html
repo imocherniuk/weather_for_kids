@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        
+         <audio id="weathersong" autoplay="autoplay">
+          <source src="music/song.mp3" type="audio/mp3">
+        </audio>
+
+         <img src="assets/img/mute.jpg" height="42" width="42" onclick="document.getElementById('weathersong').pause()" />
+
+        <!-- The stylesheet -->
+        <link rel="stylesheet" href="assets/css/styles.css" />
+
+        <!-- Google Fonts -->
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Playball|Open+Sans+Condensed:300,700" />
+
+        <!--[if lt IE 9]>
+          <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+    </head>
+
+    <body>
+
+       
+   <div class="transbox">
+      
+    <p> W e a t h e r<span class="letter"> 4 </span> k i d s</p>
+  
+  </div>
+
+
+  <div class="transbox2">
+      
+    <p><a href="http://weather-for-kids-imocherniuk1-3.c9.io/index.html" style="text-decoration: none">
+    <span class="letter2">N e x t<span class="letter1"> 5 </span> d a y s </span></a></p>
+
+  </div> 
+  
+   <div id="clouds"></div> 
+   
+  <br>
+  <br>
+  <marquee direction="up"  width="1350" height="350" loop="5" scrollamount="3" id="marquee1">
+  <center>
+      
+  <img src="assets/img/anim/condition_1.png">
+  <br>
+  <br>
+  <img src="assets/img/anim/condition_5.png">
+  <br>
+  <br>
+  <img src="assets/img/anim/condition_3.png">
+  <br>
+  <br>
+  <img src="assets/img/anim/condition_4.png">
+  <br>
+  <br>
+  <img src="assets/img/anim/condition_2.png">
+  <br>
+  <br>
+  <img src="assets/img/anim/condition_6.png">
+  <br>
+  <br>
+  <img src="assets/img/anim/condition_7.png">
+  <br>
+  <br>
+  <img src="assets/img/anim/condition_8.png">
+  </center></marquee>
+       
+
+      
+      <div>
+      
+    <input class="button" type= "button" value="Stop" onClick="document.getElementById('marquee1').stop();">
+    <input class="button" type= "button" value="Start" onClick="document.getElementById('marquee1').start();">
+
+      </div>
+       
+    </body>
+</html>

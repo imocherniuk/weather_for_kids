@@ -44,14 +44,14 @@ section, footer, header{
 --------------------------*/
 
 .transbox {
-    margin: 1.5px;
+    margin: 2.5px;
     background-color: #ffffff;
     opacity: 0.6;
     filter: alpha(opacity=60); /* For IE8 and earlier */
 }
 
  .transbox p {
-    margin: 0%;
+    margin: 2%;
     font-weight: bold;
     font-family: "Comic Sans MS";
     font-size:42px; 
@@ -68,7 +68,6 @@ section, footer, header{
 
  
  .transbox2 {
-    margin: 0px;
     background-color: #ffffff;
     opacity: 0.6;
     filter: alpha(opacity=60); /* For IE8 and earlier */
@@ -80,7 +79,7 @@ section, footer, header{
     font-family: "Comic Sans MS";
     font-size:30px; 
     text-align: center;
-    color: #000000;
+    color: #FF0000;
  }
  .letter1 {
     color: red; 
@@ -109,10 +108,10 @@ section, footer, header{
 #clouds:before{
 	content:'';
 	background:url('../img/cloud2.png') no-repeat;
-	height: 102px;
+	height: 150px;
 	right: -750px;
 	position: absolute;
-	top: -70px;
+	top: -60px;
 	width: 156px;
 }
 
@@ -380,3 +379,20 @@ footer h2 i{
     float: left;
     margin-top: 11px;
 }
+
+
+
+  .button{
+    background: -moz-linear-gradient(#FF0000,#FF4747);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#FF0000), to(#FF4747));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF0000', endColorstr='#FF4747');
+    padding: 3px 7px;
+    color: black;
+    font-weight:bold;
+    font-family: "Comic Sans MS";
+    font-size:16px; 
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: 2px solid red 
+   }
