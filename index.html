@@ -3,13 +3,13 @@
     <head>
         <meta charset="utf-8" />
         
-         <audio id="weathersong" autoplay="autoplay">
+         <audio id="weathersong" autoplay="autoplay" loop="infinite">
           <source src="music/song.mp3" type="audio/mp3">
         </audio>
 
          <img src="assets/img/mute1.jpg" height="42" width="42" onclick="document.getElementById('weathersong').pause()" />
 
-        <!-- The stylesheet -->
+              <!-- The stylesheet -->
         <link rel="stylesheet" href="assets/css/styles.css" />
 
         <!-- Google Fonts -->
@@ -29,54 +29,30 @@
     <p> W e a t h e r<span class="letter"> 4 </span> k i d s</p>
   
   </div>
-
-
-  <div class="transbox2">
-      
-    <p><a href="http://weather-for-kids-imocherniuk1-3.c9.io/index.html" style="text-decoration: none">
-    <span class="letter2">N e x t<span class="letter1"> 5 </span> d a y s </span></a></p>
-
-  </div> 
+    
+    <br>
   
-   <div id="clouds"></div>  
-   
-  <br>
-  <br>
-  <marquee direction="up"  width="1350" height="350" loop="5" scrollamount="3" id="marquee1">
-  <center>
-      
-  <img src="assets/img/anim/condition_1.png">
-  <br>
-  <br>
-  <img src="assets/img/anim/condition_5.png">
-  <br>
-  <br>
-  <img src="assets/img/anim/condition_3.png">
-  <br>
-  <br>
-  <img src="assets/img/anim/condition_4.png">
-  <br>
-  <br>
-  <img src="assets/img/anim/condition_2.png">
-  <br>
-  <br>
-  <img src="assets/img/anim/condition_6.png">
-  <br>
-  <br>
-  <img src="assets/img/anim/condition_7.png">
-  <br>
-  <br>
-  <img src="assets/img/anim/condition_8.png">
-  </center></marquee>
-       
+  <p class="location"></p>
 
-      
-      <div>
-      
-    <input class="button" type= "button"  value="Stop" onClick="document.getElementById('marquee1').stop();" >
-    <input class="button" type= "button"  value="Start" onClick="document.getElementById('marquee1').start();">
+        <div id="weather">
 
-      </div>
-       
+            <ul id="scroller">
+                <!-- The forecast items will go here -->
+            </ul>
+
+            <a href="#" class="arrow previous">Previous</a>
+            <a href="#" class="arrow next">Next</a>
+
+        </div>
+
+        <div id="clouds"></div>
+
+        <!-- JavaScript includes - jQuery, moment.js and our own script.js -->
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.0.0/moment.min.js"></script>
+        <script src="assets/js/script.js"></script>
+
+
+ 
     </body>
 </html>

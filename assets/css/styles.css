@@ -386,8 +386,8 @@ footer h2 i{
     background: -moz-linear-gradient( #196C96,#8CB6CA);
     background: -webkit-gradient(linear, 0 0, 0 100%, from(#196C96), to(#8CB6CA));
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#196C96', endColorstr='#8CB6CA');
+    height:30px;
     width: 60px;
-    height: 40px;  
     color: black;
     font-weight:bold;
     font-family: "Comic Sans MS";
