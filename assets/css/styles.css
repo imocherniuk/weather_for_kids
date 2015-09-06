@@ -383,16 +383,17 @@ footer h2 i{
 
 
   .button{
-    background: -moz-linear-gradient(#FF0000,#FF4747);
-    background: -webkit-gradient(linear, 0 0, 0 100%, from(#FF0000), to(#FF4747));
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF0000', endColorstr='#FF4747');
-    padding: 3px 7px;
+    background: -moz-linear-gradient( #196C96,#8CB6CA);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#196C96), to(#8CB6CA));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#196C96', endColorstr='#8CB6CA');
+    width: 60px;
+    height: 40px;  
     color: black;
     font-weight:bold;
     font-family: "Comic Sans MS";
-    font-size:16px; 
+    font-size:14px; 
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius: 5px;
-    border: 2px solid red 
+
    }
